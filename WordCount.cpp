@@ -56,5 +56,6 @@ int main(int argc, char *argv[])
 			printf("字符数：%d\n",cntChar);
 		}
 	}
+	fclose(fp);
 	return 0;
 }
